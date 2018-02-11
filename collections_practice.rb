@@ -17,8 +17,8 @@ def sort_array_desc(integer_array2)
       0
     elsif b < a
       -1
-    elsif b > a
-      1
-end
-end
+      elsif b > a
+        1
+      end
+    end
 end
