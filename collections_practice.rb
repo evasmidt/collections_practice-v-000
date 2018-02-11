@@ -11,6 +11,7 @@ end
 #array with the integers in descending order. 
 #Remember that .sort takes a block in which you 
 #can specify how you want your array sorted.
-def sort_array_desc 
-
+def sort_array_desc(integer_array2)
+  integer_array.sort do |b, a|
+  b <=> a
 end
