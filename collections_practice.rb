@@ -31,9 +31,8 @@ end
 # which you can specify how you want your array
 # sorted.
 def sort_array_char_count(strings)
-char_count = []
-strings.map.count do |word_char|
-  .sort
-end 
-  char_count.sort 
+  array.sort do |left, right|
+    left.length <=> right.length
+  end
+  end
 end
