@@ -34,5 +34,5 @@ def sort_array_char_count(strings)
   array.sort do |left, right|
     left.length <=> right.length
   end
-  end
+  #end
 end
