@@ -30,7 +30,7 @@ end
 # by length. Remember that .sort takes a block in
 # which you can specify how you want your array
 # sorted.
-def sort_array_char_count(strings)
+def sort_array_char_count(array)
   array.sort do |left, right|
     left.length <=> right.length
   end
