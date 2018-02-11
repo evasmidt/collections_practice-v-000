@@ -12,7 +12,12 @@ end
 #Remember that .sort takes a block in which you
 #can specify how you want your array sorted.
 def sort_array_desc(integer_array2)
-  integer_array.sort do |b, a|
-  b <=> a
+      integer_array.sort do |a, b|
+    if a == b
+      0
+    elsif b < a
+      -1
+    elsif b > a
+      1
 end
 end
