@@ -15,3 +15,4 @@ def sort_array_desc(integer_array2)
   integer_array.sort do |b, a|
   b <=> a
 end
+end
