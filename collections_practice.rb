@@ -22,3 +22,14 @@ def sort_array_desc(integer_array2)
       end
     end
 end
+
+
+#Build a method sort_array_char_count that takes 
+# in an array of strings and returns a copy of the 
+# array with the strings ordered in ascending order
+# by length. Remember that .sort takes a block in 
+# which you can specify how you want your array 
+# sorted.
+def sort_array_char_count(strings)
+  
+end
